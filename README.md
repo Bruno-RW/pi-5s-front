@@ -1,6 +1,9 @@
-# PROJETO INTEGRADOR - 5º SEMESTRE (CIÊNCIA DA COMPUTAÇÃO)
+# PROJETO INTEGRADOR - 5º SEMESTRE (CIÊNCIA DA COMPUTAÇÃO) / Frontend
 
 # Tecnologias:
 - Linguagem: TypeScript
+- Biblioteca: React
 - Framework: Next.js
-<!-- - Servidor: AWS -->
+- Other libraries:
+    - TailwindCSS
+    - ShadCN
