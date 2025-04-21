@@ -4,6 +4,6 @@
 - Linguagem: TypeScript
 - Biblioteca: React
 - Framework: Next.js
-- Other libraries:
+- Outras bibliotecas:
     - TailwindCSS
     - ShadCN
