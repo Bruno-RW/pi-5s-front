@@ -1,5 +1,5 @@
-// import {nextui} from '@nextui-org/theme';
 import type { Config } from "tailwindcss";
+import {heroui} from '@heroui/theme';
 
 const config: Config = {
   darkMode: "class",
@@ -7,7 +7,8 @@ const config: Config = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./node_modules/@nextui-org/theme/dist/components/(dropdown|input|select|popover|menu|divider|button|ripple|spinner|listbox|scroll-shadow).js"
+    "./node_modules/@nextui-org/theme/dist/components/(dropdown|input|select|popover|menu|divider|button|ripple|spinner|listbox|scroll-shadow).js",
+    "./node_modules/@heroui/theme/dist/components/navbar.js"
   ],
   theme: {
     extend: {
@@ -61,22 +62,8 @@ const config: Config = {
     },
   },
   plugins: [
-    // require("tailwindcss-animate"),
-    // nextui({
-    //   themes: {
-    //     light: {
-    //       colors: {
-    //         primary: { DEFAULT: "#2563EB" },
-    //       },
-    //     },
-    //     dark: {
-    //       colors: {
-    //         primary: { DEFAULT: "#346DCA" },
-    //       },
-    //     },
-    //   },
-    // }),
-  ],
+    heroui()
+  ]
 };
 
 export default config;

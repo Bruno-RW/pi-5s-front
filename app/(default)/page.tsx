@@ -1,11 +1,19 @@
+"use client";
+
 import StreamText from "@/components/StreamText";
+import Navbar from "@/components/Navbar";
 
 const HomePage = () => {
   return (
-    <div className="">
-      HOME
+    <>
+      <Navbar />
+
+      <section>
+        HOME
+      </section>
+      
       <StreamText />
-    </div>
+    </>
   );
 };
 

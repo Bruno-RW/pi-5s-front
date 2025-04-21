@@ -7,3 +7,4 @@
 - Outras bibliotecas:
     - TailwindCSS
     - ShadCN
+    - HeroUI
