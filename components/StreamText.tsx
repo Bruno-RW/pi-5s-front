@@ -3,6 +3,8 @@
 
 import { useState } from "react";
 
+import { MESSAGE_STREAM_URL } from "@/lib/route";
+
 export default function StreamText() {
   const [text, setText] = useState("");
   const [loading, setLoading] = useState(false);
@@ -11,7 +13,7 @@ export default function StreamText() {
     setText("");
     setLoading(true);
     
-    const response = await fetch("http://localhost:8000/message");
+    const response = await fetch(MESSAGE_STREAM_URL);
     const reader = response.body?.getReader();
     const decoder = new TextDecoder();
 
